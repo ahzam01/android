@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrialActivity">
+
+    <TextView
+        android:id="@+id/tv_headerBox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:background="#027293"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/iv_cart"
+        android:layout_width="49dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="35dp"
+        app:srcCompat="@drawable/ic_cart" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="101dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="12dp"
+        android:elevation="5dp"
+        app:srcCompat="@drawable/logo1" />
+
+
+    <TextView
+        android:id="@+id/tv_logodesign"
+        android:layout_width="32dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/logo_design"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="2dp"
+        app:srcCompat="@drawable/ic_menu" />
+
+    <ImageView
+        android:id="@+id/iv_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:elevation="5dp"
+        app:srcCompat="@drawable/banner2" />
+
+    <TextView
+        android:id="@+id/tv_phead"
+        android:layout_width="150dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="328dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/leelawdb"
+        android:textColor="#625F5F"
+        android:text="Immersive Soul" />
+
+
+    <ImageView
+        android:id="@+id/iv_checkbox"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="320dp"
+        app:srcCompat="@drawable/checkmark" />
+
+    <TextView
+        android:id="@+id/tv_pSdescp"
+        android:layout_width="268dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_phead"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="54dp"
+        android:fontFamily="@font/leelawad"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Printed round neck T-Shirt, short sleeves" />
+
+    <TextView
+        android:id="@+id/tv_pclot"
+        android:layout_width="90dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_pSdescp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="54dp"
+        android:fontFamily="@font/leelawad"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="100 % Cotton" />
+    <TextView
+        android:id="@+id/tv_psize"
+        android:layout_width="46dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_pSdescp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="294dp"
+        android:fontFamily="@font/leelawad"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Size: M" />
+    <TextView
+        android:id="@+id/tv_pwashtype"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_pclot"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="54dp"
+        android:fontFamily="@font/leelawad"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Machine-Wash" />
+    
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/tv_pwashtype"
+        android:layout_marginStart="288dp"
+        android:elevation="5dp"
+        android:src="@drawable/user"/>
+
+    <TextView
+        android:id="@+id/tv_safeTag"
+        android:layout_width="98dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/tv_pwashtype"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="113dp"
+        android:background="#1CBA61"
+        android:fontFamily="@font/bradhitc"
+        android:paddingTop="4dp"
+        android:text="You are Safe"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_pwashtype"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="54dp"
+        android:fontFamily="@font/leelawdb"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="RS. 599" />
+
+    <Button
+        android:id="@+id/btn_rejectTrial"
+        android:layout_width="134dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/tv_coupon"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="54dp"
+        android:background="@drawable/outline_filled_color"
+        android:textColor="#027293"
+        android:fontFamily="@font/leelawdb"
+        android:textSize="11sp"
+        android:text="Reject Trial" />
+
+    <Button
+        android:id="@+id/btn_addToCart"
+        android:layout_width="134dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/tv_coupon"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="30dp"
+        android:background="#027293"
+        android:fontFamily="@font/leelawdb"
+        android:text="Buy Now"
+        android:textColor="#ffffff"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/tv_offer"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_price"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/leelawdb"
+        android:text="*Offer"
+        android:textColor="#625F5F"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_coupon"
+        android:layout_width="171dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_offer"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="54dp"
+        android:fontFamily="@font/leelawad"
+        android:textColor="#625F5F"
+        android:textSize="11sp"
+        android:text="Apply the coupon during checkout." />
+
+    <Button
+        android:id="@+id/btn_couponCode"
+        android:layout_width="54dp"
+        android:layout_height="21dp"
+        android:layout_below="@+id/tv_price"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_dashed_outline"
+        android:fontFamily="@font/leelawdb"
+        android:text="SAVE 10"
+        android:textColor="#027293"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/tv_cartCount"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/cart_background"
+        android:fontFamily="@font/leelawdb"
+        android:paddingTop="2dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RejectActivity">
+
+    <TextView
+        android:id="@+id/tv_headerBox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:background="#027293"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/iv_cart"
+        android:layout_width="49dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="35dp"
+        app:srcCompat="@drawable/ic_cart" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="101dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="12dp"
+        android:elevation="5dp"
+        app:srcCompat="@drawable/logo1" />
+
+
+    <TextView
+        android:id="@+id/tv_logodesign"
+        android:layout_width="32dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/logo_design"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="2dp"
+        app:srcCompat="@drawable/ic_menu" />
+
+    <ImageView
+        android:id="@+id/iv_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:elevation="5dp"
+        app:srcCompat="@drawable/banner2" />
+
+    <TextView
+        android:id="@+id/tv_phead"
+        android:layout_width="150dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="328dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/leelawdb"
+        android:textColor="#625F5F"
+        android:text="Immersive Soul" />
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="328dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/leelawdb"
+        android:textColor="#625F5F"
+        android:text="RS. 599" />
+
+    <TextView
+        android:id="@+id/tv_pSdescp"
+        android:layout_width="268dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_phead"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/leelawad"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Printed round neck T-Shirt, short sleeves" />
+    <TextView
+        android:id="@+id/tv_pSize"
+        android:layout_width="46sp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_pSdescp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/leelawad"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Size: M" />
+
+    <TextView
+        android:id="@+id/tv_rejectReason"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tv_pSize"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/leelawdb"
+        android:textColor="#625F5F"
+        android:text="Reject Reason" />
+
+    <CheckBox
+        android:id="@+id/cb_sizeMisMatch"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_rejectReason"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Size MisMatch" />
+
+    <CheckBox
+        android:id="@+id/cb_defect"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/cb_sizeMisMatch"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Defect In Apparel" />
+
+    <CheckBox
+        android:id="@+id/cb_notGood"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/cb_defect"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Not as per the liking" />
+
+    <CheckBox
+        android:id="@+id/cb_colorMisMatch"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/cb_notGood"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Colour mismatch" />
+    <TextView
+        android:id="@+id/tv_otherComments"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/cb_colorMisMatch"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/leelawad"
+        android:textColor="#625F5F"
+        android:textSize="15sp"
+        android:text="Other Comments" />
+
+    <EditText
+        android:id="@+id/tv_comments"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_otherComments"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/box_shadow"
+        android:inputType="text"
+        android:text="" />
+    <Button
+        android:id="@+id/btn_rejectProduct"
+        android:layout_width="134dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/tv_comments"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="#027293"
+        android:fontFamily="@font/leelawdb"
+        android:text="Confirm"
+        android:textColor="#ffffff"
+        android:textSize="11sp" />
+
+</RelativeLayout>

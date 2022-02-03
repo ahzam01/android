@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThankYouActivity">
+
+    <TextView
+        android:id="@+id/tv_headerBox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:background="#027293"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/iv_cart"
+        android:layout_width="49dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="35dp"
+        app:srcCompat="@drawable/ic_cart" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="101dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="12dp"
+        android:elevation="5dp"
+        app:srcCompat="@drawable/logo1" />
+
+
+    <TextView
+        android:id="@+id/tv_logodesign"
+        android:layout_width="32dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/logo_design"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="2dp"
+        app:srcCompat="@drawable/ic_menu" />
+
+
+    <TextView
+        android:id="@+id/tv_thank"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tv_headerBox"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/leelawdb"
+        android:layout_marginTop="18dp"
+        android:textSize="18sp"
+        android:text="Thank You, " />
+
+    <TextView
+        android:id="@+id/tv_thank_2"
+        android:layout_width="143dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tv_headerBox"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="20dp"
+        android:text="for Shopping with Us." />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="189dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tv_thank_2"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="173dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/leelawdb"
+        android:text="Stay Happy, Stay Safe" />
+
+    <TextView
+        android:id="@+id/tv_msg_trending"
+        android:layout_width="77dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tv_msg"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/leelawdb"
+        android:text="Trending" />
+
+    <ImageView
+        android:id="@+id/iv_slider"
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tv_msg_trending"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:elevation="10dp"
+        app:srcCompat="@drawable/banner2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/iv_slider"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="116dp"
+        android:elevation="10dp"
+        app:srcCompat="@drawable/scanner" />
+
+    <TextView
+        android:id="@+id/tv_items"
+        android:layout_width="180dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/iv_slider"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/leelawdb"
+        android:textColor="#625F5F"
+        android:textSize="18sp"
+        android:text="Items You May Like..." />
+
+    <ImageView
+        android:id="@+id/iv_womanDress"
+        android:layout_width="122dp"
+        android:layout_height="129dp"
+        android:layout_below="@+id/tv_items"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/womendressimages" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tv_items"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="98dp"
+        android:alpha="0.7"
+        android:background="#ffffff"
+        android:paddingTop="23dp"
+        android:text="Featuring the classic brand logo"
+        android:textSize="6sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_items"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="98dp"
+        android:text="ZARA" />
+
+
+    <ImageView
+        android:id="@+id/iv_manDress"
+        android:layout_width="122dp"
+        android:layout_height="129dp"
+        android:layout_below="@+id/tv_items"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/womendressimages" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tv_items"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="98dp"
+        android:alpha="0.7"
+        android:background="#ffffff"
+        android:paddingTop="23dp"
+        android:text="Featuring the classic brand logo"
+        android:textSize="6sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_items"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="98dp"
+        android:text="ZARA" />
+
+
+</RelativeLayout>
